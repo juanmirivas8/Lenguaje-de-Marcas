@@ -14,7 +14,7 @@
     <form>
 
         <div class="wrapper">
-            <div class="one">
+            <div id="one">
                 <div class="aboveLabel">
                     <label for="title">Title: <span style="color:red">*</span></label>
                     <input style="width: 400px;" type="text" id="title">
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <div class="second">
+            <div id="second">
                 <div style="width:150px;">
                     <input style=" margin:10px" type="checkbox" id="EL">
                     <label id="labelEL" for="EL">Enrollment
@@ -63,6 +63,211 @@
                     <input style="width: 440px;" type="text" id="Rat1">
                 </div>
 
+            </div>
+
+            <div id="third">
+                <div style="width:150px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="labelEL" for="EL">Consent required</label>
+                </div>
+
+                <div id="CR" class="aboveLabel">
+                    <label for="Rat1">Rationale: </label>
+                    <input style="width: 440px;" type="text" id="Rat1">
+                </div>
+
+            </div>
+
+            <div id="f_flex">
+                <div id="forth">
+                    <div style="width:150px;">
+                        <input style=" margin:10px" type="checkbox" id="EL">
+                        <label id="labelEL" for="EL">Limit class level</label>
+                    </div>
+
+                    <div class="aboveLabel">
+                        <label for="num">Code:</label>
+                        <input style="width:30px;" type="number" id="num">
+                    </div>
+
+                    <div class="aboveLabel">
+                        <label for="Rat1">Rationale: </label>
+                        <input style="width: 440px;" type="text" id="Rat1">
+                    </div>
+                </div>
+                <div id="HTHO" class="aboveLabel">
+                    <label for="Rat1">How to handle over-enrollment: </label>
+                    <input style="width: 440px;" type="text" id="Rat1">
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+            <div id="v_flex">
+                <div id="fith">
+                    <div style="width:150px;">
+                        <input style=" margin:10px" type="checkbox" id="EL">
+                        <label id="labelPre" for="EL">Prerequisite</label>
+                    </div>
+
+                    <div id="RAT" class="aboveLabel">
+                        <label for="Rat1">Rationale: </label>
+                        <input style="width: 440px;" type="text" id="Rat1">
+                    </div>
+                </div>
+                <div id="ReqP" class="aboveLabel">
+                    <label for="Rat1">Required Prereqs.(major,course): </label>
+                    <input style="width: 440px;" type="text" id="Rat1">
+                </div>
+
+                <div id="RecPre" class="aboveLabel">
+                    <label for="Rat1">Recommended Prereqs.: </label>
+                    <input style="width: 440px;" type="text" id="Rat1">
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+            <div id="columna_uno">
+                <div style="margin-top: 10px;" class="aboveLabel">
+                    <label for="num">Class </br>Meetings/Week:</label>
+                    <input style="width:30px;" type="number" id="num">
+                </div>
+
+                <div style="width:150px;margin-top: 10px;" class="aboveLabel">
+                    <label for="num">Class Hours/Week:</label>
+                    <input style="width:30px;" type="number" id="num">
+                </div>
+
+                <div style="margin-top: 10px;" id="semester">
+                    <label for="select1">Semester(s) Offered</label>
+                    <select name="select1" id="">
+                        <option value="null">- none -</option>
+                        <option value="1">- One -</option>
+                        <option value="2">- Two -</option>
+                    </select>
+                </div>
+
+                <div style="width:200px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="c1_include" for="EL">Incl. semester in prereqs.</label>
+                </div>
+
+                <div style="width:200px;">
+                    <input style=" margin:10px;margin-top:20px;" type="checkbox" id="EL">
+                    <label id="" for="EL">Offered only once</label>
+                </div>
+
+                <div style="width:200px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="c1_include" for="EL">Incl. in printed <br> catalog</label>
+                </div>
+            </div>
+
+            <div id="columna_dos">
+                <span style="font-weight: bold;margin: 10px;">Keywords</span>
+
+                <div style="width:250px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="" for="EL">Science for non-majors</label>
+                </div>
+
+                <div style="width:250px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="" for="EL">Fine arts for non-majors</label>
+                </div>
+
+                <div style="width:250px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="" for="EL">Lab Science course</label>
+                </div>
+
+                <div style="width:250px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="" for="EL">Artistic practice</label>
+                </div>
+
+                <div style="width:240px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="c2_foreign" for="EL">Foreign language/culture taught in English</label>
+                </div>
+
+                <div style="width:250px;">
+                    <input style=" margin:10px;margin-top:20px;" type="checkbox" id="EL">
+                    <label id="" for="EL">Community based learning</label>
+                </div>
+
+                <div style="width:250px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="" for="EL">Writing attentive</label>
+                </div>
+
+                <div style="width:250px;">
+                    <input style=" margin:10px" type="checkbox" id="EL">
+                    <label id="" for="EL">Writing intensive</label>
+                </div>
+            </div>
+
+            <div id="last">
+                <div id="last_first">
+                    <span style="font-weight: bold;margin: 10px;">Approvals:</span>
+
+                    <div style="width:180px;">
+                        <input style=" margin:10px" type="checkbox" id="EL">
+                        <label id="" for="EL">CEP</label>
+                    </div>
+
+                    <div style="width:180px;">
+                        <input style=" margin:10px" type="checkbox" id="EL">
+                        <label id="" for="EL">Committee of Six</label>
+                    </div>
+
+                    <div style="width:180px;">
+                        <input style=" margin:10px" type="checkbox" id="EL">
+                        <label id="" for="EL">Faculty</label>
+                    </div>
+
+                </div>
+
+                <div id="last_second">
+                    <span style="font-weight: bold;margin: 10px;">Date:</span>
+
+                    <div style="border-top: 2px solid rgb(133, 133, 133);" class="last_1">
+                        <span style="margin: 10px;">&#10021;</span>
+                       <input type="text" name="" id="">
+                    </div>
+
+                    <div class="last_2">
+                        <span style="margin: 10px;">&#10021;</span>
+                        <input type="text" name="" id="">
+                     </div>
+
+                     <div class="last_1">
+                        <span style="margin: 10px;">&#10021;</span>
+                        <input type="text" name="" id="">
+                     </div>
+                </div>
+
+                <div id="last_second">
+                    <span style="font-weight: bold;margin: 10px;">Comment:</span>
+
+                    <div style="border-top: 2px solid rgb(133, 133, 133);" class="last_3">
+                        <span style="margin: 10px;">&#10021;</span>
+                       <input type="text" name="" id="">
+                    </div>
+
+                    <div class="last_4">
+                        <span style="margin: 10px;">&#10021;</span>
+                        <input type="text" name="" id="">
+                     </div>
+
+                     <div class="last_3">
+                        <span style="margin: 10px;">&#10021;</span>
+                        <input type="text" name="" id="">
+                     </div>
+                </div>
             </div>
         </div>
     </form>
