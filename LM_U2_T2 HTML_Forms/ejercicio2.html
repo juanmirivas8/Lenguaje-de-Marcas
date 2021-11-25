@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_2.css">
+    <title>EJERCICIO 2</title>
+</head>
+<body>
+    
+    <form>
+       
+            <div id="wrapper" >
+
+                <div id="first_row" >
+                    <span>Event Planner</span>
+
+                    <select id="more_actions">
+                        <option value="null">More Actions</option>
+                    </select>
+                </div>
+
+                <div id="columna1" >
+                    <div class="conjunto">
+                        <label for="event_name">Event Name</label>
+                        <input type="text" id="event_name">
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="event_coordinator">Event Coordinator</label>
+                        <input type="text" id="event_coordinator">
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="event_type">Event type</label>
+                        <select id="event_type">
+                            <option value="1">Concert</option>
+                        </select>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="event_description">Event Description</label>
+                        <input type="text" name="" id="event_description">
+                    </div>
+
+                    <div id="outside" class="multiple_conjunto">
+                        <span>Does your program involve any type of outside activity?</span>
+
+                        <div id="">
+                            <div id="" class="">
+                                <input class="radio_checkbox" type="radio" name="outside_activity" id="yes_outside">
+                                <label for="yes_outside">Yes</label>  
+                            </div> 
+
+                            <div id="" class="" >
+                                <input class="radio_checkbox" type="radio" name="outside_activity" id="no_outside">
+                                <label for="no_outside">No</label>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="cost_per_person">Cost Per Person</label>
+                        <input type="text" name="" id="cost_per_person">
+                        <span id="help_cost_per_person">USD</span>
+                    </div>
+
+                </div>
+
+                <div id="columna2" >
+                    <div id="requirements" class="multiple_conjunto">
+                        <span>Requirements</span>
+
+                        <div id="">
+                            <div id="" class="">
+                                <input class="radio_checkbox" type="checkbox" name="requirements" id="staffing">
+                                <label for="staffing">Staffing</label>  
+                            </div> 
+
+                            <div id="" class="" >
+                                <input class="radio_checkbox" type="checkbox" name="requirements" id="catering">
+                                <label for="catering">Catering</label>  
+                            </div>
+
+                            <div id="" class="" >
+                                <input class="radio_checkbox" type="checkbox" name="requirements" id="security">
+                                <label for="security">Security</label>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="start_date">Event Start Date</label>
+                        <input type="date" name="" id="start_date">
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="end_date">Event End Date</label>
+                        <input type="date" name="" id="end_date">
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="location">Location</label>
+                        <input type="text" name="" id="location">
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="city">City</label>
+                        <input type="text" name="" id="city">
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="state">State</label>
+                        <select id="state">
+                            <option value="1">-Select-</option>
+                        </select>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="country">Country</label>
+                        <select id="country">
+                            <option value="1">-Select-</option>
+                        </select>
+                    </div>
+
+                    <div class="conjunto">
+                        <label for="itinerary" id="itinerary_label">Atach Detailed Itinerary</label>
+                        <input type="file" name="" id="itinerary">
+                    </div>
+                </div>
+
+                <div id="last_row" >
+                    <input id="submit_button" type="submit" value="Submit">
+                    <input id="submit_button" type="reset" value="Reset">
+                </div>
+
+
+
+
+
+            </div>
+
+       
+    </form>
+
+
+</body>
+</html>
