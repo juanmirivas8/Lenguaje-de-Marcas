@@ -1,0 +1,59 @@
+caption{
+ font-size: xx-large;
+ font-weight: bold;
+}
+
+img{
+  width:50px;
+  height:50px;
+  padding:0px;
+  margin: 0px;
+}
+.tabla{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabla th {
+  border: 1px solid black;
+  padding: 20px;
+  width: 40px;
+}
+
+.tabla td {
+  border: 1px solid black;
+  padding:10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tabla tbody tr th{
+  background-color:red;
+  color: white;
+}
+
+#capacity td{
+  border: 1px solid black;
+  padding:10px;
+  text-align: center;
+  background-color:gray;
+  font-size: xx-large;
+}
+
+
+
+#colors td ul li{
+  color:red;
+  text-align: left;
+}
+
+#yellow{
+  background-color:yellow;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.variasColumnas{
+  background-color:blue;
+}
