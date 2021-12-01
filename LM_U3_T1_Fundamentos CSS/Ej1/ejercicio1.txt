@@ -1,0 +1,9 @@
+- Tenemos 4 selectores que modifican las etiquetas body, h1, hr y p. Entre las características que se modifican 
+tenemos color, que modifica el color de las fuentes, background_color que modifica el color de fondo, font-size que modifica
+el tamaño de la fuente y margin-left que modifica el margen a la izquierda del elemento.
+
+-Tenemos además un selector aplicado a una clase específica de la etiqueta p llamada "verse". En éste selector modificamos color y margin-left, ya descritos 
+anteriormente.
+
+-Tenemos 4 psesudoselectores que afectan a los estados de la etiqueta a , a los que se les modifica el color dependiendo de si se trata de un enlace (link), de si se han
+visitado con anterioridad (visited), de si el puntero pasa por encima de ellos (hover), y de si se deja pulsado (active).

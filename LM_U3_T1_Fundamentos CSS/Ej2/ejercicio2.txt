@@ -1,0 +1,2 @@
+- Los dos primeros párrafos se muestran de forma diferente porque están usando una clase específica de la 
+etiqueta p. Para que se vean igual que el resto debemos borrar class="verse" en estos dos párrafos. 
