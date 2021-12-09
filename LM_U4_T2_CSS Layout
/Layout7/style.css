@@ -1,0 +1,113 @@
+html{
+    font-size: 10px;
+}
+
+.container{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+
+    display: grid;
+
+    grid-template-rows: repeat(4,auto);
+   
+} 
+
+#r1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#r1 img{
+    width: 30rem;
+    object-fit: scale-down;
+    height: min-content;
+    margin-left: 5rem;
+    
+}
+
+#r1 div{
+    display: flex;
+    align-items: center;
+    color: white;
+   justify-content: center;
+   margin-right: 5rem;
+   font-size: 2rem;
+}
+
+#r1 div span{
+    margin-left: 2rem;
+}
+
+
+#r2{
+    display: flex;
+    justify-content: center;
+
+}
+#r2 div{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    font-size: 4rem;
+    
+}
+
+#r2 div span:first-of-type{
+    color: red;
+    font-size: 6.5rem;
+}
+
+#r2 div span{
+    color: white;
+    font-size: 3rem;
+}
+
+#r2 img{
+    width: 30%;
+    object-fit: scale-down;
+    height: min-content;
+}
+
+#r3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+#r3 div{
+    color: white;
+    font-size: 3rem;
+    margin: 3rem;
+}
+
+#r3 div p{
+    margin: 0.25rem;
+}
+
+#r3 div p:nth-child(3){
+    font-size: 2rem;
+    border:none;
+    padding: 1rem;
+    background-color: red;
+    border-radius: 0.5rem;
+}
+
+#r3 img{
+    width: 15%;
+    object-fit: scale-down;
+    height: min-content;
+    border-color: white;
+    border-width: 1rem;
+    border-style: solid;
+}
+
+#r4 p{
+    color: white;
+    font-size: 2rem;
+    margin:3rem;
+}
