@@ -1,0 +1,113 @@
+
+#header{
+    color:white;
+    background-color:black;
+    display: flex;
+    justify-content:flex-start;
+} 
+
+#header div:first-child{
+    margin-left: 10px;
+    margin-right:auto;
+}
+#header div:last-child{
+   display:flex;
+   align-items: flex-end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+#barra{
+    background-color:yellowgreen;
+    display:flex;
+    justify-content:flex-start;
+    border-bottom: 2px solid seagreen;
+}
+
+#barra div{
+    color:white; 
+    margin:10px;
+}
+
+#barra div:hover{
+    color:blue;
+    background-color:red;
+}
+
+#footer{
+    flex-direction: column;
+    color:white;
+    background-color:black;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#footer p{
+    margin: 0px;
+}
+
+#cuerpo{
+    display:flex;
+}
+
+.menu_calendario{
+    background-color: silver;
+    border-radius: 2%;
+}
+
+.menu_calendario h4, img{
+    margin:10px;
+}
+
+#cuadro{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    flex-grow: 1;
+}
+
+#cuadro div:first-child{
+    display:flex;
+    justify-content:center;
+    margin:10px;
+    
+}
+
+#cuadro div:nth-child(2){
+    display:flex;
+    justify-content:flex-start;
+    font-weight:bold;
+    background-color: silver;
+    margin:10px;
+    border-bottom: 2px solid seagreen;
+}
+
+#cuadro div:last-child{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:flex-start;
+    align-items:right;
+    font-weight: bold;
+    color:seagreen;
+    background-color: silver;
+    border-bottom: 1px solid seagreen;
+    margin: 10px;
+    
+}
+
+#cuadro div:last-child span{
+    color:black;
+}
+
+#cuadro div:last-child ul{
+    list-style: none;
+    flex-grow: 1;
+}
+
+#cuadro div:last-child img{
+    align-self: flex-end;
+    width:10%;
+}
+

@@ -1,0 +1,115 @@
+
+#cuerpo{
+    display:flex;
+    flex-direction:column;
+}
+
+header{
+    color: white;
+    background-color:black;
+    text-align:center;
+}
+
+header p{
+    background-color:white;
+    color: black;
+    text-align:end;
+    padding:0px;
+    margin:0px;
+}
+
+#cuerpo >nav{
+    background-color:black;
+    color: white;
+}
+
+#cuerpo >nav ul{
+    display:flex;
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+#cuerpo >nav li{
+    margin:10px;
+}
+
+#cuerpo >nav li:hover{
+    background-color:white;
+    color:black;
+}
+
+#cuerpo > div{
+    display:flex;
+}
+
+footer{
+    color:white;
+    background-color:black;
+}
+
+footer p{
+    color:white;
+    background-color:black;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+}
+
+#c2{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#c2 div{
+    background-color:silver;
+    display:flex;
+    flex-direction:column;
+    width:min-content;
+    height:min-content;
+}
+
+#c2 div img{
+    margin:10px;
+    object-fit: contain;
+    width:150px
+}
+
+#c2 p{
+    padding:0px;
+    margin:0px;
+    text-align:center;
+}
+
+#c1{
+    margin: 10px;
+}
+
+#c1 h4{
+    color:white;
+    background-color:black;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+}
+
+#c1 ul{
+    list-style:none;
+    padding:0px;
+}
+
+#c1 li:nth-child(odd){
+    background-color:silver;
+}
+
+#c3{
+    margin:10px;
+}
+
+#c3 h4{
+    color:white;
+    background-color:black;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+}
