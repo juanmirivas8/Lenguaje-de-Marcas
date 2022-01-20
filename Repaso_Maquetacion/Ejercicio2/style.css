@@ -1,115 +1,107 @@
-
 #cuerpo{
-    display:flex;
-    flex-direction:column;
+    display:grid;
+    width:inherit;
+    grid-template-areas: "header" 
+                         "menu"
+                         "principal"
+                         "footer"
+    
+                                    ;
+}
+
+img{
+    width:200px;
 }
 
 header{
-    color: white;
+    color:white;
     background-color:black;
     text-align:center;
 }
 
 header p{
-    background-color:white;
-    color: black;
-    text-align:end;
-    padding:0px;
-    margin:0px;
-}
-
-#cuerpo >nav{
-    background-color:black;
-    color: white;
-}
-
-#cuerpo >nav ul{
-    display:flex;
-    list-style:none;
-    padding:0px;
-    margin:0px;
-}
-#cuerpo >nav li{
-    margin:10px;
-}
-
-#cuerpo >nav li:hover{
-    background-color:white;
+    text-align:right;
     color:black;
-}
-
-#cuerpo > div{
-    display:flex;
-}
-
-footer{
-    color:white;
-    background-color:black;
-}
-
-footer p{
-    color:white;
-    background-color:black;
-    text-align:center;
-    padding:0px;
+    background-color:white;
     margin:0px;
+}
+
+#nav1{
+    background-color:black;
+    color:white;
+}
+
+#nav1 ul{
+    list-style:none;
+    display: grid;
+    grid-auto-rows: 150%;
+    grid-template-columns: repeat(6,min-content);
+    gap:2%;
+   
+}
+
+#container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: space-between;
+    gap:2%;
+}
+
+#container div{
+    display:grid;
+    grid-auto-rows: min-content;
+    margin: 2%;
+    
+}
+
+#container div h4{
+    margin: 0;
+    color:white;
+    background-color:black;
+    text-align: center;
 }
 
 #c2{
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
+    place-items: center;
 }
 
 #c2 div{
+    width:fit-content;
+    grid-auto-columns: min-content;
+    place-items:center;
     background-color:silver;
-    display:flex;
-    flex-direction:column;
-    width:min-content;
-    height:min-content;
+    padding:2%;
+    
 }
 
-#c2 div img{
-    margin:10px;
-    object-fit: contain;
-    width:150px
+footer{
+    display:grid;
+    place-content:center;
+    background-color:black;
+    color:white;
 }
 
-#c2 p{
-    padding:0px;
-    margin:0px;
-    text-align:center;
+footer p{
+    margin:0; 
+    width:fit-content;
 }
-
 #c1{
-    margin: 10px;
+    gap:2%;
 }
 
-#c1 h4{
-    color:white;
-    background-color:black;
-    text-align:center;
-    padding:0px;
-    margin:0px;
+#c1 nav ul{
+    list-style: none;
+    display:grid;
+    padding:0;
+    margin:0;
 }
 
-#c1 ul{
-    list-style:none;
-    padding:0px;
-}
-
-#c1 li:nth-child(odd){
+#c1 nav ul li:nth-child(odd){
     background-color:silver;
+    padding: 1%;
 }
 
-#c3{
-    margin:10px;
-}
-
-#c3 h4{
-    color:white;
-    background-color:black;
-    text-align:center;
-    padding:0px;
-    margin:0px;
+#c1 nav ul li:nth-child(even){
+   background-color:white;
+   padding: 1%
 }
