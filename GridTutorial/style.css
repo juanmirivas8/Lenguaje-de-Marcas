@@ -1,0 +1,35 @@
+
+#container {
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 8px solid #4834d4;
+    display: grid;
+  
+    grid-template-columns: repeat(auto-fit,minmax(50px,100px));
+    grid-auto-rows: 50px;
+    
+    
+  }
+  
+  .item {
+    display: flex;
+    align-content: stretch;
+    justify-content: stretch;
+    border: 1px solid #222;
+    text-align: center;
+    box-shadow: 1px 2px 3px grey;
+    border-radius: 8px;
+    color: #222;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    background-color: #f9d423;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .item:hover {
+    color: #fff;
+  }
+
+  
